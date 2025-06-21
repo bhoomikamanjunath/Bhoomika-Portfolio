@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #212121;
+}
+header {
+  background: #1a237e;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+nav {
+  margin-top: 1rem;
+}
+nav a {
+  color: #fff;
+  margin: 0 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+section {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+}
+h2 {
+  color: #3546a6;
+  margin-top: 0;
+}
+.project {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.project:last-child {
+  border-bottom: none;
+}
+.project ul, .experience ul, .education ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  text-align: center;
+  padding: 1.2rem 0;
+  background: #ececec;
+  color: #333;
+  margin-top: 2rem;
+}
+@media (max-width: 600px) {
+  main {
+    padding: 0 0.2rem;
+  }
+  section {
+    padding: 1rem 0.2rem;
+  }
+}
