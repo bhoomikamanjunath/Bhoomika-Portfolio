@@ -4,118 +4,197 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Bhoomika Manjunath | Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <!-- Glider.js carousel CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Portfolio</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-    </nav>
+    <div class="hero">
+      <img class="hero-bg" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1500&q=80" alt="Business Analysis" />
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <p class="tagline">Turning Data Into Business Value</p>
+        <img class="avatar" src="https://randomuser.me/api/portraits/women/95.jpg" alt="Bhoomika Manjunath" />
+        <h1>Bhoomika Manjunath</h1>
+        <h2>Business Analyst | Data Storyteller | Tech Enthusiast</h2>
+        <p>Empowering business with actionable insights and collaborative solutions.</p>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <main>
     <section class="about" id="about">
-      <h2>About Me</h2>
-      <p>
-        Hi, I'm Bhoomika Manjunath — a Business Analyst passionate about solving complex problems through data, storytelling, and systems thinking.
-        With over two years at Tata Consultancy Services and hands-on CRM and product strategy experience, I bring empathy and structure to fast-paced teams.
-        I recently earned my Master's in Information Technology & Management from UT Dallas and hold CSPO and Salesforce Administrator certifications.
-        I thrive at the intersection of business, tech, and people.
-      </p>
+      <div class="section-img">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Teamwork" />
+      </div>
+      <div>
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm <strong>Bhoomika Manjunath</strong> — a Business Analyst passionate about solving complex problems through data, storytelling, and systems thinking.
+          With over two years at Tata Consultancy Services and hands-on CRM and product strategy experience, I bring empathy and structure to fast-paced teams.
+          I recently earned my Master's in Information Technology & Management from UT Dallas and hold CSPO and Salesforce Administrator certifications.
+          I thrive at the intersection of business, tech, and people.
+        </p>
+      </div>
     </section>
 
     <section class="experience" id="experience">
       <h2>Work Experience</h2>
-      <ul>
-        <li>
-          <h3>Tata Consultancy Services (TCS)</h3>
-          <p>Business Analyst – Telecom Domain (UK Client)</p>
-          <p>
-            Led legacy product migration, improved order workflows, and optimized voice bundle launches using Agile and Salesforce QTC.
-            Worked closely with cross-functional teams to deliver scalable CRM solutions.
-          </p>
-        </li>
-        <li>
-          <h3>GoTeachInTheUSA – Capstone</h3>
-          <p>
-            Improved lead qualification using Python and OCR, organized CRM data into actionable segments,
-            and optimized client outreach flow in a real-world consulting setup.
-          </p>
-        </li>
-      </ul>
+      <div class="exp-cards">
+        <div class="exp-card">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="TCS" />
+          <div>
+            <h3>Tata Consultancy Services (TCS)</h3>
+            <p class="exp-role">Business Analyst – Telecom Domain (UK Client)</p>
+            <p>
+              Led legacy product migration, improved order workflows, and optimized voice bundle launches using Agile and Salesforce QTC.
+              Worked closely with cross-functional teams to deliver scalable CRM solutions.
+            </p>
+          </div>
+        </div>
+        <div class="exp-card">
+          <img src="https://images.unsplash.com/photo-1515168833906-d2a3b82b3026?auto=format&fit=crop&w=600&q=80" alt="GoTeachInTheUSA" />
+          <div>
+            <h3>GoTeachInTheUSA – Capstone</h3>
+            <p class="exp-role">Consulting Project</p>
+            <p>
+              Improved lead qualification using Python and OCR, organized CRM data into actionable segments,
+              and optimized client outreach flow in a real-world consulting setup.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="education" id="education">
       <h2>Education</h2>
-      <ul>
-        <li>
-          <h3>The University of Texas at Dallas</h3>
-          <p>MS in Information Technology & Management – 2025</p>
-        </li>
-        <li>
-          <h3>Presidency University, India</h3>
-          <p>BTech in Computer Science – 2021</p>
-        </li>
-      </ul>
+      <div class="edu-cards">
+        <div class="edu-card">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="UT Dallas" />
+          <div>
+            <h3>The University of Texas at Dallas</h3>
+            <p>MS in Information Technology & Management – <span class="edu-grad">2025</span></p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=600&q=80" alt="Presidency University" />
+          <div>
+            <h3>Presidency University, India</h3>
+            <p>BTech in Computer Science – <span class="edu-grad">2021</span></p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="projects" id="projects">
       <h2>Featured Projects</h2>
-      <div class="project">
-        <h3>Netflix SQL Data Analysis</h3>
-        <p>Ran 15+ SQL queries on a Netflix dataset to analyze genre distribution, Indian content patterns, and actor collaborations.</p>
+      <div class="glider-contain">
+        <button class="glider-prev">&laquo;</button>
+        <div class="glider">
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?auto=format&fit=crop&w=400&q=80" alt="Netflix SQL" />
+            <h3>Netflix SQL Data Analysis</h3>
+            <p>Ran 15+ SQL queries on a Netflix dataset to analyze genre distribution, Indian content patterns, and actor collaborations.</p>
+            <ul>
+              <li>PostgreSQL</li>
+              <li>Excel</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b41?auto=format&fit=crop&w=400&q=80" alt="GoTeachInTheUSA Capstone" />
+            <h3>GoTeachInTheUSA Capstone</h3>
+            <p>Automated data extraction using Python OCR, structured lead data into Excel, and improved CRM pipeline visualization.</p>
+            <ul>
+              <li>Python</li>
+              <li>OCR</li>
+              <li>Excel</li>
+            </ul>
+          </div>
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1461344577544-4e5dc9487184?auto=format&fit=crop&w=400&q=80" alt="SmartComms Salesforce" />
+            <h3>SmartComms & Salesforce Integration</h3>
+            <p>Gathered requirements and mapped user stories for integrating SmartComms with Salesforce.</p>
+            <ul>
+              <li>Salesforce</li>
+              <li>JIRA</li>
+              <li>User Stories</li>
+            </ul>
+          </div>
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Telecom Product Migration" />
+            <h3>Telecom Product Migration at TCS</h3>
+            <p>Worked with UK telecom client to launch voice bundles and support legacy product decommissioning.</p>
+            <ul>
+              <li>Agile</li>
+              <li>Salesforce</li>
+              <li>Telecom</li>
+            </ul>
+          </div>
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="BiteWise Product Strategy" />
+            <h3>BiteWise – Product Strategy</h3>
+            <p>Built an AI-powered meal planner app strategy with feature roadmap and GTM plan.</p>
+            <ul>
+              <li>Figma</li>
+              <li>Canva</li>
+              <li>Product Strategy</li>
+            </ul>
+          </div>
+        </div>
+        <button class="glider-next">&raquo;</button>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-card">
+        <h2>Contact</h2>
         <ul>
-          <li>PostgreSQL</li>
-          <li>Excel</li>
-          <li>SQL</li>
+          <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+            <a href="mailto:bhoomikamanjunath.23@gmail.com">bhoomikamanjunath.23@gmail.com</a>
+          </li>
+          <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone" />
+            <a href="tel:19402441832">(940) 244 1832</a>
+          </li>
+          <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Location" />
+            <span>United States</span>
+          </li>
+          <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/bhoomika-manjunathbs/" target="_blank">LinkedIn Profile</a>
+          </li>
         </ul>
       </div>
-      <div class="project">
-        <h3>GoTeachInTheUSA Capstone</h3>
-        <p>Automated data extraction using Python OCR, structured lead data into Excel, and improved CRM pipeline visualization.</p>
-        <ul>
-          <li>Python</li>
-          <li>OCR</li>
-          <li>Excel</li>
-        </ul>
-      </div>
-      <div class="project">
-        <h3>SmartComms & Salesforce Integration</h3>
-        <p>Gathered requirements and mapped user stories for integrating SmartComms with Salesforce.</p>
-        <ul>
-          <li>Salesforce</li>
-          <li>JIRA</li>
-          <li>User Stories</li>
-        </ul>
-      </div>
-      <div class="project">
-        <h3>Telecom Product Migration at TCS</h3>
-        <p>Worked with UK telecom client to launch voice bundles and support legacy product decommissioning.</p>
-        <ul>
-          <li>Agile</li>
-          <li>Salesforce</li>
-          <li>Telecom</li>
-        </ul>
-      </div>
-      <div class="project">
-        <h3>BiteWise – Product Strategy</h3>
-        <p>Built an AI-powered meal planner app strategy with feature roadmap and GTM plan.</p>
-        <ul>
-          <li>Figma</li>
-          <li>Canva</li>
-          <li>Product Strategy</li>
-        </ul>
+      <div class="contact-img">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Contact" />
       </div>
     </section>
   </main>
 
   <footer>
+    <div class="footer-links">
+      <a href="mailto:bhoomikamanjunath.23@gmail.com" title="Email"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" /></a>
+      <a href="https://www.linkedin.com/in/bhoomika-manjunathbs/" title="LinkedIn" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" /></a>
+      <a href="https://github.com/bhoomikamanjunath" title="GitHub" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub" /></a>
+    </div>
     <p>&copy; 2025 Bhoomika Manjunath</p>
   </footer>
+
+  <!-- Glider.js carousel JS -->
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
